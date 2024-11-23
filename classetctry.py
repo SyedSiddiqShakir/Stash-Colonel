@@ -1,2 +1,9 @@
-x = 5
-print(x)
+class Cat():
+    def __init__(self):
+        self.meow
+        print("Cat class created")
+        pass
+
+    def meow(self):
+        pass
+snow = Cat()
