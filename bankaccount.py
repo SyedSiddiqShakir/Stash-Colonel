@@ -6,17 +6,16 @@ class bankaccount():
     
     def deposit(self, deposit_amount):
             self.balance += deposit_amount
-            print(f"You have deposited {deposit_amount}$")
+            print(f"{self.account_holder} has deposited {deposit_amount}$")
             print(f"Your new balance is {self.balance}$")
             self.transactions.append (f"Deposited {deposit_amount}$")
     
     def withdraw(self, withdraw_amount):
             if withdraw_amount <= self.balance:
                 self.balance -= withdraw_amount
-                print(f"You have withdrawn {withdraw_amount}$")
+                print(f"{self.account_holder} has withdrawn {withdraw_amount}$")
                 print(f"Your new balance is {self.balance}$")
                 self.transactions.append (f"Withdrawn {withdraw_amount}$")
-                exit()
             else:
                 print(f"You balance is {self.balance}$; and it is insufficient")
     
