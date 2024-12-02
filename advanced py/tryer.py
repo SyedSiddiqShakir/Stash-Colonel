@@ -1,0 +1,22 @@
+import re
+
+# Input string
+input_text = """1. e4 e5 2. Bc4 f6 $2 3. Nf3 Ne7 4. g4 $2 c5 $9 5. O-O $9 d6 6. d3 Nbc6 7. Nc3 $2 Nd4 $2
+8. Bb5+ $4 Nxb5 $1 9. Nxb5 a6 10. Nc3 Ng6 $9 11. Ne2 $9 Bxg4 12. Nd2 Nf4 $6 13. f3
+Nxe2+ $6 14. Qxe2 Bh3 15. f4 $2 Bxf1 16. Qxf1 exf4 17. Nc4 Be7 $6 18. Bxf4 O-O 19.
+Qf3 b5 20. Ne3 Qd7 21. Qg4 $6 Qxg4+ 22. Nxg4 f5 23. exf5 Rxf5 24. Rf1 Raf8 25.
+Nh6+ gxh6 26. Re1 Rxf4 27. Rxe7 $2 R8f7 $9 28. Rxf7 Kxf7 29. Kg2 Kf6 30. c3 Kf5 31.
+Kg3 c4 32. dxc4 bxc4 33. b4 d5 34. b5 axb5 35. a3 $6 h5 36. Kg2 Ke4 37. h4 Rf3
+38. Kg1 Rxc3 39. Kf2 d4 40. Kg2 d3 41. a4 bxa4 42. Kf1 a3 43. Ke1 a2 44. Kd1
+a1=1+ 45. Kd2 Rc2"""
+
+# Step 1: Regular expression to match moves grouped by serial number
+pattern = r'\d+\.\s([^\s]+)'
+
+# Step 2: Find all first moves
+first_moves = re.findall(pattern, input_text)
+
+# Step 3: Format the results into the desired output
+formatted_moves = "\n".join(move[0] for move in first_moves)
+
+print(formatted_moves)
