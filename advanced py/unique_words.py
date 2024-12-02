@@ -1,6 +1,6 @@
 #mysentence = input("Enter your sentence: ")
 
-myfile = open('mylom.txt', 'r')
+myfile = open('mylom1.txt', 'r')
 mylines = str(myfile.readlines())
 
 # to_replace = [",", "!", "'", "\n", "-"]
