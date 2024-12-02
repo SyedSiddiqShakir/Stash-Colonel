@@ -1,13 +1,12 @@
 #mysentence = input("Enter your sentence: ")
 
 myfile = open('mylom.txt', 'r')
-mylines = myfile.readlines()
+mylines = str(myfile.readlines())
 
-to_replace = [",", "!", "'"]
+# to_replace = [",", "!", "'", "\n", "-"]
 
-for char in to_replace:
-    mylines = mylines.replace(char, " ")
-
+# for char in to_replace:
+#     mylines = mylines.replace(char, " ")
 
 words = mylines.lower().replace(".", " ").split()
 unique_words = sorted(set(words))

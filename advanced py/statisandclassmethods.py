@@ -21,4 +21,4 @@ cprod = Product("keyboard", 1000)
 if Product.is_valid_price(cprod.price):
     print(f"Product: {cprod.name}, Price: {cprod.price}")
 else:
-    print("Negative proce, please enter a positive price")
+    print("Negative price, please enter a positive price")
