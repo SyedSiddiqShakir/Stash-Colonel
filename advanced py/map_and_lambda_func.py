@@ -12,3 +12,8 @@ def sqrt(x):
     return x**x
 result = list(map(sqrt, even_numbers))
 print(result)
+
+#lambda test
+
+a = [4, 6, 1, 6, 8, 0, 6, 3, 1, 4, 62]
+print(list(sorted(set(map(lambda x: x**2, a)))))
