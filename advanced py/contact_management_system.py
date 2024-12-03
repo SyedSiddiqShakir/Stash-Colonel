@@ -28,7 +28,7 @@ def search_contact(name):
 def update_contact(name, email=None, phone_number=None):
     if name in directory:
         if email:
-            email = directory[name]['Email']
+            directory[name]['Email'] = email
         if phone_number:
             phone_number = directory[name]['Phone']
         print(f"Contact {name} updated succesfully")
