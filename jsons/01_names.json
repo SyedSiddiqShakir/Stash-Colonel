@@ -16,5 +16,24 @@
             "firstname": "Joe",
             "age": 40
         }
+    ],
+
+    "shlawgs": [
+        {
+            "firstname": "noob ahh",
+            "age": 32
+        },
+        {
+            "firstname": "Kremlin",
+            "age": 32
+        },
+        {
+            "firstname": "Steve",
+            "age": "28"
+        },
+        {
+            "firstname": "Blue man",
+            "age": 40
+        }
     ]
 }
