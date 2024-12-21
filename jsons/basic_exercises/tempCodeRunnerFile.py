@@ -1,1 +1,1 @@
-json_string
+.to_json()
