@@ -1,1 +1,2 @@
-validate_json_file("{name: Alice, age: 25}")             # Invalid
+
+                age=int(age) if 
