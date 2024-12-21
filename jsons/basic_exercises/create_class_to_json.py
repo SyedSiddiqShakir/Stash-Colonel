@@ -12,10 +12,5 @@ class Person():
             "email": self.email
         }, indent=4)
     
-    def from_json(cls, json_string):
-        data = json.loads(json_string)
-        return cls(data["name"], data["age"], data["email"])
-
-
 new_person = Person("siddiq", 25, "syedsiddiqshakir@gmail.com")
 print(new_person.to_json())
