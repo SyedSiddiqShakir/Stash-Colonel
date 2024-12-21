@@ -2,6 +2,9 @@ import json
 
 #main persona class
 class Persona():
+    no_of_people = 0
+    
+
     def __init__(self, name, age, email, occupation):
         self.name = name
         self.age = age
