@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Syed Siddiq Shakir",
+        "age": 25,
+        "email": "syedsiddiqshakir@gmail.com",
+        "occupation": "Master Student, MSc IOT and Smart Systems"
+    },
+    {
+        "name": "Syed Ibrahim Shakir",
+        "age": 26,
+        "email": "omarsrstt@gmail.com",
+        "occupation": "Master Student, MSc Autonomous Systems"
+    },
+    {
+        "name": "John Doe",
+        "age": 1337,
+        "email": "johndoe@gmail.com",
+        "occupation": "spy"
+    }
+]
