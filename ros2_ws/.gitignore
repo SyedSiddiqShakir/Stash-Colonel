@@ -1,0 +1,5 @@
+#unnecessary workspace files
+.vscode/
+build/
+install/
+log/
