@@ -1,0 +1,24 @@
+[0.487s] Invoking command in '/home/maaz/Stash-Colonel/ros2_ws/src/talker_listener': PYTHONPATH=/home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maaz/Stash-Colonel/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/build install --record /home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[0.686s] running egg_info
+[0.686s] writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+[0.686s] writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+[0.687s] writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+[0.687s] writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+[0.687s] writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+[0.688s] reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.689s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.689s] running build_py
+[0.689s] copying talker_listener/talker_node.py -> /home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/build/lib/talker_listener
+[0.689s] running install
+[0.690s] running install_lib
+[0.690s] copying /home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/build/lib/talker_listener/talker_node.py -> /home/maaz/Stash-Colonel/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener
+[0.691s] byte-compiling /home/maaz/Stash-Colonel/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener/talker_node.py to talker_node.cpython-310.pyc
+[0.691s] running install_data
+[0.691s] running install_egg_info
+[0.693s] removing '/home/maaz/Stash-Colonel/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[0.693s] Copying ../../build/talker_listener/talker_listener.egg-info to /home/maaz/Stash-Colonel/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info
+[0.693s] running install_scripts
+[0.710s] Installing talkernode script to /home/maaz/Stash-Colonel/ros2_ws/install/talker_listener/lib/talker_listener
+[0.710s] writing list of installed files to '/home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/install.log'
+[0.728s] Invoked command in '/home/maaz/Stash-Colonel/ros2_ws/src/talker_listener' returned '0': PYTHONPATH=/home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maaz/Stash-Colonel/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/build install --record /home/maaz/Stash-Colonel/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
