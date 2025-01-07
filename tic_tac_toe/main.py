@@ -6,6 +6,12 @@ game_board = np.array([
     [' ',' ',' ']
 ])
 
+def call_game_board(player):
+    for i in game_board:
+        print((i[0] + str(' | '))+(i[1] + str(' | '))+(i[2]))
+    print('----------')
+
+
 def call_sample_board(player):
     sample_board = np.array([
         ['1','2','3'],
@@ -20,36 +26,64 @@ def display_board():
     for i in game_board:
         print((i[0] + str(' | '))+(i[1] + str(' | '))+(i[2]))
 
+
 def get_player_input(player):
     call_sample_board(player)
     move = int(input())
     if move == 1:
-        game_board[0,0] = f'{player}'
-        print(game_board)
+        if game_board[0,0] == ' ':
+            game_board[0,0] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 2:
-        game_board[0,1] = f'{player}'
-        print(game_board)
+        if game_board[0,1] == ' ':
+            game_board[0,1] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 3:
-        game_board[0,2] = f'{player}'
-        print(game_board)
+        if game_board[0,2] == ' ':
+            game_board[0,2] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 4:
-        game_board[1,0] = f'{player}'
-        print(game_board)
+        if game_board[1,0] == ' ':
+            game_board[1,0] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 5:
-        game_board[1,1] = f'{player}'
-        print(game_board)
+        if game_board[1,1] == ' ':
+            game_board[1,1] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 6:
-        game_board[1,2] = f'{player}'
-        print(game_board)
+        if game_board[1,2] == ' ':
+            game_board[1,2] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 7:
-        game_board[2,0] = f'{player}'
-        print(game_board)
+        if game_board[2,0] == ' ':
+            game_board[2,0] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 8:
-        game_board[2,1] = f'{player}'
-        print(game_board)
+        if game_board[2,1] == ' ':
+            game_board[2,1] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
     elif move == 9:
-        game_board[2,2] = f'{player}'
-        print(game_board)
+        if game_board[2,2] == ' ':
+            game_board[2,2] = f'{player}'            
+        else:
+            print('Place already taken')
+        call_game_board(player)
 
 
 def main(player):
